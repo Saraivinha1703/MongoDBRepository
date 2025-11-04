@@ -4,8 +4,21 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>CarlosSaraiva.MongoDBRepository</PackageId>
+    <Version>0.1.0</Version>
+    <Author>Carlos Saraiva Neto</Author>
+    <Product>MongoDBRepository</Product>
+    <Description>A MongoDB Repository with generic ids, ready for multi-tenancy, test it, clone it and enjoy it.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Saraivinha1703/MongoDBRepository</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Repository;MongoDB;RepositoryPattern;DesignPattern;MultiTenant</PackageTags>
   </PropertyGroup>
   
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
